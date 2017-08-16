@@ -1,0 +1,111 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: "AvenirNext-Regular-Mint", "Helvetica Neue", Helvetica, Arial !important;
+}
+
+#container {
+	margin-top:0;
+	padding-top: 0;
+	margin-bottom: 30px;
+	background-color:lightgrey;
+}
+
+#middle_block {
+	margin-top:0;
+	height:auto;
+	background-color:lightgreen;
+}
+
+#form {
+	background-color:lightblue;
+	height: auto;
+  	box-shadow: 1px 1px 12px #555;
+  	padding: 30px;
+}
+
+.header {
+	height:200px;
+	background-color:lightpink;
+}
+
+.block_content {
+	background-color: yellow;
+	height:auto;
+}
+
+#content_left {
+	background-color:white;
+	height:auto;
+	padding-left:30px;
+	padding-top:0 !important;
+}
+
+#content_right {
+	background-color:white;
+	height:auto;
+	line-height: 1em;
+	padding-top:0 !important;
+	padding-left: 40px;
+	padding-right: 60px;
+}
+
+h2 {
+	font-size:30px;
+	font-weight:300;
+}
+
+h3 {
+	font-size:15px !important;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  font-size:14px;
+  font-weight:400 !important;
+  margin-bottom:10px;
+}
+
+input, textarea {
+	box-shadow: none;
+	border-radius: 3px;
+	border: 1px solid #d8d8d8;
+	width: 320px;
+	min-width: 160px;
+	padding-left: 8px;
+	padding-right: 6px;
+	height: 34px;
+}
+
+li {
+	padding: 0 5px 0 0;
+	margin: auto auto 10px;
+	font-size: 14px;
+	color: #a5a5a5;
+	line-height: 20px;
+}
+
+ul {
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#signup-privacy {
+	color: #666;
+	font-size: 14px;
+	text-decoration: underline
+}
+
+
+
